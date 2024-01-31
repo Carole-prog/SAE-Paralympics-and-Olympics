@@ -1,0 +1,49 @@
+{% include 'header.html' %}
+<h1>Sites {{title}}lympiques</h1>
+<div id="map" style="height:500px;"></div>
+<h2>Liste des sites {{title}}lympiques</h2>
+<ul>
+{% for site in sites %}
+<li><a href="/sites/{{site['id']}}">{{site['nom']}}</a></li>
+{% endfor %}
+</ul>
+
+<script>
+function initMap() {
+    var map = new google.maps.Map(
+        document.getElementById("map"),
+        {
+            styles: [
+                {featureType: "poi", stylers: [{"visibility": "off"}]},
+                {featureType: "poi", "elementType": "labels.text", stylers: [{"visibility": "off"}]},
+                {featureType: "poi.park", stylers: [{"visibility": "on"}]},
+                {featureType: "road", stylers: [{"visibility": "on"}]},
+                {featureType: "road.local", stylers: [{"visibility": "simplified"}]},
+                {featureType: "transit", stylers: [{"visibility": "off"}]}
+            ]
+        }
+    );
+
+    var bounds = new google.maps.LatLngBounds();
+    var infoWindow = new google.maps.InfoWindow();
+    
+{% for site in sites %}
+{% if site['lat'] %}
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng({{site['lat']}}, {{site['lon']}}),
+        map,
+    });
+    bounds.extend(marker.position);
+    
+    marker.addListener('click', function(){
+        infoWindow.setContent("{{site['nom']}}");
+        infoWindow.open(map, this);
+    }.bind(marker));
+{% endif %}
+{% endfor %}
+
+    map.fitBounds(bounds);
+}
+</script>
+
+{% include 'footer.html' %}

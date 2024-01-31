@@ -1,0 +1,138 @@
+Transilien,P,38,Paris Est,Vaires-sur-Marne Nautical Stadium - Whitewater
+Transilien,P,38,Paris Est,Vaires-sur-Marne Nautical Stadium - Flatwater
+RER,E,22,Haussmann St-Lazare,Vaires-sur-Marne Nautical Stadium - Whitewater
+RER,E,22,Haussmann St-Lazare,Vaires-sur-Marne Nautical Stadium - Flatwater
+Metro,13,33,St-Denis Université,Aquatics Centre
+Metro,13,33,Asnières Gennevilliers : Les Courtilles,Aquatics Centre
+RER,B,47,Mitry-Claye,Aquatics Centre
+RER,B,47,Aéroport Charles de Gaulle,Aquatics Centre
+RER,D,58,Creil,Aquatics Centre
+Metro,6,28,Charles de Gaulle Etoile,Bercy Arena
+Metro,14,20,Mairie de Saint Queen,Bercy Arena
+Train,,,Paris Montparnasse,Bordeaux Stadium
+Train,,,Paris Aéroport Charles De Gaulle,Bordeaux Stadium
+Train,,,Paris Marne la Vallée Chessy,Bordeaux Stadium
+Train,,,Paris Massy TGV,Bordeaux Stadium
+RER,C,86,Pontaise,Champs de Mars Arena
+RER,C,86,St-Quentin en Yvelines,Champs de Mars Arena
+RER,C,86,Versailles Château Rive Gauche ,Champs de Mars Arena
+RER,C,86,Versailles Chantiers ,Champs de Mars Arena
+RER,C,86,Massy Palaiseau ,Champs de Mars Arena
+Metro,6,28,Charles de Gaulle Etoile,Champs de Mars Arena
+Metro,8,39,Balard,Champs de Mars Arena
+Transilien,L,40,Paris Saint Lazare,Château de Versailles
+Transilien ,N,40,Paris Montparnasse,Château de Versailles
+RER,C,86,Versailles Château Rive Gauche ,Château de Versailles
+RER,C,86,Versailles Chantiers ,Château de Versailles
+Train ,,,Paris Austerlitz,Chateauroux Shooting Centre
+Metro,9,37,Pont de Sèvres,Eiffel Tower Stadium
+Metro,6,28,Charles de Gaulle Etoile,Eiffel Tower Stadium
+Metro,8,39,Balard,Eiffel Tower Stadium
+RER,C,86,Pontaise,Eiffel Tower Stadium
+RER,C,86,St-Quentin en Yvelines,Eiffel Tower Stadium
+RER,C,86,Versailles Château Rive Gauche ,Eiffel Tower Stadium
+RER,C,86,Versailles Chantiers ,Eiffel Tower Stadium
+RER,C,86,Massy Palaiseau ,Eiffel Tower Stadium
+Transilien > Bus,N > 5,40,Paris Montparnasse > Saint-Quentin - Gare Routière Paul Delouvrier,Elancourt Hill
+Train > Tramway,TGV > T3,,Paris Gare de Lyon > ChateauCreux,Geoffroy-Guichard Stadium
+Transilien > Bus,N > 461,,Paris Montparnasse > Saint-Quentin - Gare Routière Des Prés,Golf National
+Transilien > Bus,N > 466,,Paris Montparnasse > Saint-Quentin - Gare Routière Des Prés,Golf National
+Transilien > Bus,N > 91-11,,Paris Montparnasse > Saint-Quentin - Gare Routière Des Prés,Golf National
+Transilien,J,53,Paris Saint-Lazare,Grand Palais
+Transilien,L,40,Paris Saint Lazare,Grand Palais
+Metro,1,25,La Défense,Grand Palais
+Metro,13,33,St-Denis Université,Grand Palais
+Metro,13,33,Asnières Gennevilliers : Les Courtilles,Grand Palais
+RER,A,46,Cergy-Le-Haut,Hôtel de Ville
+RER,A,46,Poissy,Hôtel de Ville
+RER,A,46,Saint-Germain-en-Laye,Hôtel de Ville
+RER,B,47,Mitry-Claye,Hôtel de Ville
+RER,B,47,Aéroport Charles de Gaulle,Hôtel de Ville
+Metro,1,25,La Défense,Hôtel de Ville
+Metro,4,29,Porte de Clignancourt,Hôtel de Ville
+RER,C,86,Pontaise,Invalides
+RER,C,86,St-Quentin en Yvelines,Invalides
+RER,C,86,Versailles Château Rive Gauche ,Invalides
+RER,C,86,Versailles Chantiers ,Invalides
+RER,C,86,Massy Palaiseau ,Invalides
+Metro,13,33,St-Denis Université,Invalides
+Metro,13,33,Asnières Gennevilliers : Les Courtilles,Invalides
+Metro,8,39,Balard,Invalides
+Train >  Tramway,,,Paris Montparnasse 1 et 2 > Gare Nord ( Nantes ),La Beaujoire Stadium
+Transilien,J,53,Paris Saint-Lazare,La Condorde 1
+Transilien,L,40,Paris Saint Lazare,La Condorde 1
+Metro,1,25,La Défense,La Condorde 1
+Metro,12,31,Mairie d'Aubervilliers,La Condorde 1
+Transilien,J,53,Paris Saint-Lazare,La Condorde 2
+Transilien,L,40,Paris Saint Lazare,La Condorde 2
+Metro,1,25,La Défense,La Condorde 2
+Metro,12,31,Mairie d'Aubervilliers,La Condorde 2
+Transilien,J,53,Paris Saint-Lazare,La Condorde 3
+Transilien,L,40,Paris Saint Lazare,La Condorde 3
+Metro,1,25,La Défense,La Condorde 3
+Metro,12,31,Mairie d'Aubervilliers,La Condorde 3
+Transilien,J,53,Paris Saint-Lazare,La Condorde 4
+Transilien,L,40,Paris Saint Lazare,La Condorde 4
+Metro,1,25,La Défense,La Condorde 4
+Metro,12,31,Mairie d'Aubervilliers,La Condorde 4
+Train > Tramway,TGV > T3,,Paris Gare de Lyon > Meyzieu les Panettes,Lyon Stadium
+TGV > Metro > BUS,TGV > M2 > 19,,Paris Gare de Lyon - Marseille St Charles > Sainte-Marguerite Dromel-Prado Périer > Madrague De Montredon- La Plage,Marina Marseille
+,,,,Le Bourget Sport Climbing Venue
+TGV > Metro,TGV > M2 ,,Paris Gare de Lyon - Marseille St Charles > Sainte Marguerite Dromel - Rond-Point Du Prado,Marseille Stadium
+TGV> TER > METRO,TGV > 86050 > L3,,Paris Gare de Lyon - Cannes > Cannes - Nice St-Augustin > Grand Arenas - Stade,Nice Stadium
+ RER > RER, B > A,,Gare Du Nord - Châtelet Les Halles > Châtelet les Halles - Nanterre Préfecture,North Paris Arena
+Metro > RER, 4  > A,,Gare Du Nord - Les Halles > Châtelet Les Halles - Nanterre Préfecture,North Paris Arena
+RER > RER,D > A,,Gare Du Nord - Châtelet Les Halles > Châtelet les Halles - Nanterre Préfecture,North Paris Arena
+Metro,9,37,Pont de Sèvres,Parc des Princes
+ RER > RER, B > A,,Gare Du Nord - Châtelet Les Halles > Châtelet les Halles - Nanterre Préfecture,Paris La Defense Arena
+Metro > RER, 4  > A,,Gare Du Nord - Les Halles > Châtelet Les Halles - Nanterre Préfecture,Paris La Defense Arena
+RER > RER,D > A,,Gare Du Nord - Châtelet Les Halles > Châtelet les Halles - Nanterre Préfecture,Paris La Defense Arena
+TGV > TER,TGV > 19946,,Gare Du Nord - Lille Flandres > Lilles Flandres - Pont de Bois,Pierre Mauroy Stadium
+Transilien,J,53,Paris Saint-Lazare,Pont Alexandre III
+Transilien,L,40,Paris Saint Lazare,Pont Alexandre III
+RER,C,86,Pontaise,Pont Alexandre III
+RER,C,86,St-Quentin en Yvelines,Pont Alexandre III
+RER,C,86,Versailles Château Rive Gauche ,Pont Alexandre III
+RER,C,86,Versailles Chantiers ,Pont Alexandre III
+RER,C,86,Massy Palaiseau ,Pont Alexandre III
+Metro,1,25,La Défense,Pont Alexandre III
+Metro,13,33,St-Denis Université,Pont Alexandre III
+Metro,13,33,Asnières Gennevilliers : Les Courtilles,Pont Alexandre III
+Metro,12,31,Mairie d'Aubervilliers,Porte de la Chapelle Arena
+Transilien ,N,40,Paris Montparnasse,Saint-Quentin-en-Yvelines BMX Stadium
+Transilien,U,11,La Défense Grande Arche,Saint-Quentin-en-Yvelines BMX Stadium
+RER,C,86,Pontaise,Saint-Quentin-en-Yvelines BMX Stadium
+RER,C,86,St-Quentin en Yvelines,Saint-Quentin-en-Yvelines BMX Stadium
+RER,C,86,Versailles Château Rive Gauche ,Saint-Quentin-en-Yvelines BMX Stadium
+RER,C,86,Versailles Chantiers ,Saint-Quentin-en-Yvelines BMX Stadium
+RER,C,86,Massy Palaiseau ,Saint-Quentin-en-Yvelines BMX Stadium
+Transilien ,N,40,Paris Montparnasse,Saint-Quentin-en-Yvelines Velodrome
+Transilien,U,11,La Défense Grande Arche,Saint-Quentin-en-Yvelines Velodrome
+RER,C,86,Pontaise,Saint-Quentin-en-Yvelines Velodrome
+RER,C,86,St-Quentin en Yvelines,Saint-Quentin-en-Yvelines Velodrome
+RER,C,86,Versailles Château Rive Gauche ,Saint-Quentin-en-Yvelines Velodrome
+RER,C,86,Versailles Chantiers ,Saint-Quentin-en-Yvelines Velodrome
+RER,C,86,Massy Palaiseau ,Saint-Quentin-en-Yvelines Velodrome
+Transilien ,N,40,Paris Montparnasse,South Paris Arena 1
+Metro,12,31,Mairie d'Aubervilliers,South Paris Arena 1
+Tramway,T2,25,Pont de Bezons,South Paris Arena 1
+Tramway,T3a,25,Pont du Garigliano,South Paris Arena 1
+Transilien ,N,40,Paris Montparnasse,South Paris Arena 4
+Metro,12,31,Mairie d'Aubervilliers,South Paris Arena 4
+Tramway,T2,25,Pont de Bezons,South Paris Arena 4
+Tramway,T3a,25,Pont du Garigliano,South Paris Arena 4
+Transilien ,N,40,Paris Montparnasse,South Paris Arena 6
+Metro,12,31,Mairie d'Aubervilliers,South Paris Arena 6
+Tramway,T2,25,Pont de Bezons,South Paris Arena 6
+Tramway,T3a,25,Pont du Garigliano,South Paris Arena 6
+RER,B,47,Mitry-Claye,Stade de France
+RER,B,47,Aeroport Charles de Gaulle,Stade de France
+RER,D,58,Creil,Stade de France
+Metro,12,31,Mairie d'Aubervilliers,Stade de France
+Metro,13,33,St-Denis Universite,Stade de France
+Metro,13,33,Asnieres Gennevilliers : Les Courtilles,Stade de France
+Avion,,,Aeroport de Paris-Orly (ORY) > Aeroport international Fa'a'a (PPT),Teahupoo
+Metro,9,37,Pont de Sevres,Trocadero
+Metro,6,28,Charles de Gaulle Etoile,Trocadero
+Transilien,J,53,Paris Saint-Lazare,Yves-du-Manoir Stadium - Pitch 1
+Transilien,J,53,Paris Saint-Lazare,Yves-du-Manoir Stadium - Pitch 2

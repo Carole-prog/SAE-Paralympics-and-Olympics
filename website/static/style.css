@@ -1,0 +1,111 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+    margin: 0; padding: 0;
+    background-color: #DEDEDE;
+}
+
+div#header {
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+    overflow: auto;
+    border-bottom: 1px solid black;
+}
+
+a#titre {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+a#titre > img {
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+}
+
+a#titre > div {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    padding-top: 2px;
+}
+
+nav {
+    border-top: 1px solid #CCCCCC;
+}
+
+nav > ul {
+    margin: 0; padding: 0;
+    display: flex;
+}
+
+nav > ul > li {
+    display: block;
+    flex: 1 1 0px;
+    width: 0;
+    text-align: center;
+    border-left: 1px solid #CCCCCC;
+}
+
+nav > ul > li:first-child {
+    border-left: 0;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+nav > ul > li > a:hover {
+    background-color: #E0E0E0;
+}
+
+div#container {
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+table {
+}
+
+table td, th {
+    padding: 5px;
+}
+
+table th {
+    background-color: #CCCCCC;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #EEEEEE;
+}
+
+table tr:nth-child(even) td {
+    background-color: #E0E0E0;
+}
+
+table tr:hover td {
+    background-color: #CCCCCC;
+}
+
+div.itineraire {
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+img.picto {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}

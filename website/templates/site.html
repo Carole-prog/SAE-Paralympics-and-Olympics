@@ -1,0 +1,26 @@
+{% include 'header.html' %}
+<h1>{{site['nom']}}</h1>
+<h2>Liste des sports concernés</h2>
+<ul>
+{% for sport in sports %}
+<li><strong><a href="/sports/{{sport['id']}}">{{ sport['nom'] }}</a></strong> ({{ sport['id'] }})</li>
+{% endfor %}
+</ul>
+
+<h2>Arrêts desservants le site</h2>
+<ul>
+{% for station in stations %}
+<li><strong>{{ station['nom'] }}</strong> ({{ station['distance'][0] }}-{{ station['distance'][1] }} mètres)
+<ul>
+    {% for arret in station["arrets"] %}
+    <li>
+    {{ arret["nom"] }} ({{ arret['distance'] }} mètres)
+        {% for itineraire in arret["itineraires"] %}
+        <img class="picto" src="{{itineraire['picto']}}"><div class="itineraire" style="background-color: #{{ '%06x' % itineraire['couleur'] }}; color: #{{ '%06x' % itineraire['couleurTexte'] }};">{{ itineraire['nomCourt'] }}</div>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+</li>
+{% endfor %}
+{% include 'footer.html' %}

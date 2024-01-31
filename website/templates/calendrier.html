@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+<h1>Calendrier</h1>
+{% for sport in sports %}
+<h2>{{ sport['nom'] }}</h2>
+{% for session in sport['sessions'] %}
+<h3>Session {{ session['numero'] }} - {{ session['date'] }}</h3>
+<p>De <strong>{{ session['debut'] }}</strong> à <strong>{{ session['fin'] }}</strong> à <strong><a href="/sites/{{ session['site']['id'] }}">{{ session['site']['nom'] }}</a></strong></p>
+<ul>
+{% for event in session['events'] %}
+<li>{{ event }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% endfor %}
+
+{% include 'footer.html' %}

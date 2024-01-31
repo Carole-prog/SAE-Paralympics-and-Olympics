@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ title.capitalize() }}lympics 2024</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="header">
+        <a id="titre" href="/">
+            <img src="/static/olympics.svg">
+            <div>{{ title.capitalize() }}lympics 2024</div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/calendrier">Calendrier</a></li>
+                <li><a href="/sports">Sports</a></li>
+                <li><a href="/sites">Sites</a></li>
+                <li><a href="{{ extern_url }}">{{ extern_title }}</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container">

@@ -1,0 +1,45 @@
+{% include 'header.html' %}
+<h1>{{ sport['nom'] }}</h1>
+<p>Identifiant du sport: <strong>{{ sport['id'] }}</strong></p>
+
+<h2>Liste des sites</h2>
+{% if sites %}
+<p>
+<ul>
+{% for site in sites %}
+<li><a href="/sites/{{site['id']}}">{{site['nom']}}</a></li>
+{% endfor %}
+</ul>
+</p>
+{% else %}
+<p>Pas d'informations disponibles :(</p>
+{% endif %}
+
+<h2>Liste d'athlètes médaillés</h2>
+{% if athletes %}
+<table>
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>&nbsp;&nbsp;&nbsp;Or&nbsp;&nbsp;&nbsp;</th>
+            <th>Argent</th>
+            <th>Bronze</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for athlete in athletes %}
+        <tr>
+            <td><strong><a href="/athletes/{{athlete['id']}}">{{ athlete['nom'] }}</a></strong></td>
+            <td>{{ athlete['or'] }}</td>
+            <td>{{ athlete['argent'] }}</td>
+            <td>{{ athlete['bronze'] }}</td>
+            <td>{{ athlete['or']+athlete['argent']+athlete['bronze'] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>Pas d'informations disponibles :(</p>
+{% endif %}
+{% include 'footer.html' %}

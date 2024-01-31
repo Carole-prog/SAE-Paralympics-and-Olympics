@@ -1,0 +1,9 @@
+{% include 'header.html' %}
+<h1>Sports</h1>
+<p>Liste des sports des Jeux {{title.capitalize()}}lympiques 2024 :</p>
+<ul>
+{% for sport in sports %}
+<li><strong><a href="/sports/{{sport['id']}}">{{ sport['nom'] }}</a></strong> ({{ sport['id'] }})</li>
+{% endfor %}
+</ul>
+{% include 'footer.html' %}

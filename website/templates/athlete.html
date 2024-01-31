@@ -1,0 +1,23 @@
+{% include 'header.html' %}
+<h1>{{ athlete['nom'] }}</h1>
+<ul>
+    {% if athlete['genre'] %}
+    <li>Genre: <strong>{{ athlete['genre'] }}</strong></li>
+    {% endif %}
+    {% if athlete['pays'] %}
+    <li>Pays: <strong>{{ athlete['pays'] }}</strong></li>
+    {% endif %}
+    {% if athlete['taille'] %}
+    <li>Taille: <strong>{{ athlete['taille'] }} cm</strong></li>
+    {% endif %}
+    {% if athlete['poids'] %}
+    <li>Poids: <strong>{{ athlete['poids'] }} kg</strong></li>
+    {% endif %}
+    {% if athlete['naissance'] %}
+    <li>Date de naissance: <strong>{{ athlete['naissance'] }}</strong></li>
+    {% endif %}
+    {% if athlete['deces'] %}
+    <li>Date de décès: <strong>{{ athlete['deces'] }}</strong></li>
+    {% endif %}
+</ul>
+{% include 'footer.html' %}
